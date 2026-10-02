@@ -6,5 +6,3 @@
 - `annotations_test.jsonl`: test set.
 
 Each UTF-8 JSONL line contains one sample, including its `split`, `youtube_url`, video metadata, and `annotation`. The annotation contains six global creative-planning cards in `global_mv_planning` and ordered story beats in `structure_beat_planning`, with their `mv_choice`, `song_evidence`, and `association_chain` fields.
-
-Video IDs are unique, with no train/test overlap. Audio/video files are not included. Live link availability has not been checked.
